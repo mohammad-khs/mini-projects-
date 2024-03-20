@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+}
+
+input[type="text"] {
+    box-shadow: 0 6px darkgrey;
+
+    display: inline-block;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 338px;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+#calculator {
+
+    border-radius: 15px;
+    padding: 30px;
+    border: 2px solid white;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+input[type="button"] {
+    box-shadow: 0 4px darkgrey;
+
+    border-radius: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    font-size: xx-large;
+    margin: 5px;
+    width: 80px;
+    height: 60px;
+
+}
+
+
+
+#conclution {
+    margin-left: 9px;
+
+    position: absolute;
+    height: 130px;
+}
+
+
+input[type="button"]:hover {
+    background-color: cadetblue;
+}
+
+input[type="button"]:active {
+    background-color: white;
+    box-shadow: none;
+}
+
+input[type="text"]:active {
+    box-shadow: none;
+}
+
+/* my prob is flashback position */

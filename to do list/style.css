@@ -1,0 +1,75 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+#search input[type='text'] {
+    width: 98%;
+}
+
+#add-form input {
+    width: 90%;
+}
+
+#add-form button {
+    width: 8%;
+}
+
+#tdl {
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+}
+
+input,
+button {
+    padding: 1px 2px;
+    font-size: x-large;
+}
+
+li {
+    list-style-type: none;
+    font-size: x-large;
+    margin: 5px 0;
+}
+
+ul {
+    position: relative;
+}
+
+.delete-btn {
+    user-select: none;
+    cursor: pointer;
+    font-size: large;
+    padding: 2px;
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
+
+.delete-btn:active {
+    background-color: red;
+}
+
+#frog {
+    width: 250px;
+    height: 250px;
+}
+
+#myfrog {
+    display: flex;
+    justify-content: center;
+}
+
+
+#count {
+    margin: 45px 0;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(24, 73, 134);
+}

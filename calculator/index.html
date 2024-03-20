@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-5">
+        <a class="navbar-brand" href="#">Mini Projects</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/flappy bird/index.html">Flappy Bird</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ball game/index.html">Ball Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/to do list/index.html">Todo List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/calculator/index.html">Calculator</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="calculator">
+
+        <input type="text" id="text-box" name="0">
+
+
+        <div id="row1">
+            <input onclick="clearScreen()" type="button" value="C" />
+            <input onclick="display('÷'),displayDivide()" type="button" value="÷" />
+            <input onclick="display('*') " type="button" value="×" />
+            <input onclick="del()" type="button" value="DEL" />
+        </div>
+        <div id="row2">
+            <input onclick="display('7')" type="button" value="7" />
+            <input onclick="display('8')" type="button" value="8" />
+            <input onclick="display('9')" type="button" value="9" />
+            <input onclick="display('-')" type="button" value="-" />
+        </div>
+        <div id="row3">
+            <input onclick="display('4')" type="button" value="4" />
+            <input onclick="display('5')" type="button" value="5" />
+            <input onclick="display('6')" type="button" value="6" />
+            <input onclick="display('+')" id="plus" type="button" value="+" />
+        </div>
+
+        <div id="row4">
+            <input onclick="display('1')" type="button" value="1" />
+            <input onclick="display('2')" type="button" value="2" />
+            <input onclick="display('3')" type="button" value="3" />
+            <input onclick="solve()" id="conclution" type="button" value="=" />
+        </div>
+        <div id="row5">
+            <input onclick="display('%')" type="button" value="%" />
+            <input onclick="display('0')" type="button" value="0" />
+            <input onclick="display('.')" type="button" value="." />
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
